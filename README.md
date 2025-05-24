@@ -69,6 +69,10 @@ Now Simply just run (if you encounter compiler, try to run the this shell script
 ```shell
 ./build.sh
 ```  
+## 1.1: Update the Library Path
+```
+sudo ldconfig
+```
 
 ---
 
