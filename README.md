@@ -152,3 +152,5 @@ open the pdf `MH01_stereo.pdf` and you see the
 ## demo
 
 ![output](https://github.com/bharath5673/ORB-SLAM3/blob/main/output.gif)
+
+![output](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGNqNXIzY3lodDM3dHdpODczaDVyNm11ZDFwNXo3cDc2NmFxYjg3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jgpanCSl3D4RHOaczS/giphy.gif)
