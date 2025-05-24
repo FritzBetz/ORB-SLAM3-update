@@ -97,6 +97,16 @@ cd ~/Dev/ORB_SLAM3
 # Pick of them below that you want to run
 
 # Mono
+# yo it dont open da viewer in mono example cuz by default the code set bUseViewer to false when it start up
+# if u want da viewer window to pop up, u gotta go in mono_euroc.cc and change that 4th param from false to true when makin the ORB_SLAM3::System object
+# then u gotta rebuild (run make again) and now when u run mono, da viewer show up just like u want
+#  open Examples/Monocular/mono_euroc.cc
+#  find the line like
+#  ORB_SLAM3::System SLAM(argv[1], argv[2], ORB_SLAM3::System::MONOCULAR, false);
+#  change false to true
+#  save, rebuild, run it
+
+
 ./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Monocular/EuRoC_TimeStamps/MH01.txt dataset-MH01_mono
 
 # Mono + Inertial
